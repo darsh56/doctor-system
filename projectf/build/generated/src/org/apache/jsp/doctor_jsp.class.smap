@@ -1,0 +1,18 @@
+SMAP
+doctor_jsp.java
+JSP
+*S JSP
+*F
++ 0 doctor.jsp
+doctor.jsp
++ 1 Header.html
+Header.html
++ 2 Footer.html
+Footer.html
+*L
+5,11:50
+1#1,88:61
+15#0,17:149
+1#2,69:166
+31#0,4:234
+*E

@@ -1,0 +1,18 @@
+SMAP
+doctorwise_jsp.java
+JSP
+*S JSP
+*F
++ 0 doctorwise.jsp
+doctorwise.jsp
++ 1 Header.html
+Header.html
++ 2 Footer.html
+Footer.html
+*L
+5,12:50
+1#1,88:62
+16#0,18:150
+1#2,69:168
+33#0,5:236
+*E

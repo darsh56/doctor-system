@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+               <title>JSP Page</title>
+ 
+<script type="text/javascript">
+function app(form)
+{
+var Name=form.username.value;
+
+if(Name.length==0){
+	alert("you must enter your name");
+	return false;
+}
+else{
+	alert("suggestion saved successfully");
+	return true;
+}
+
+
+}
+</script>
+</head>
+               
+               
+ 
+    <body>
+
+<form action="SServlet" method="post" onSubmit="return app(this);">  
+
+Name:<input type="text" name="username"/><br/><br/>  
+prescription<input type="text" name="pres"/><br/><br/>  
+<input type="submit" value="login"/>  
+</form>  
+</body>
+</html>
+

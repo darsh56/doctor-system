@@ -1,0 +1,18 @@
+SMAP
+patientd_jsp.java
+JSP
+*S JSP
+*F
++ 0 patientd.jsp
+patientd.jsp
++ 1 Header.html
+Header.html
++ 2 Footer.html
+Footer.html
+*L
+5,136:54
+1#1,88:190
+140#0,66:278
+1#2,69:344
+205#0,6:412
+*E

@@ -1,0 +1,18 @@
+SMAP
+idm1_jsp.java
+JSP
+*S JSP
+*F
++ 0 idm1.jsp
+idm1.jsp
++ 1 Header.html
+Header.html
++ 2 Footer.html
+Footer.html
+*L
+5,57:54
+1#1,88:111
+61#0,38:199
+1#2,69:237
+98#0,5:305
+*E

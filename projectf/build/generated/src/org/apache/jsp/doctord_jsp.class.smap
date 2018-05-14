@@ -1,0 +1,18 @@
+SMAP
+doctord_jsp.java
+JSP
+*S JSP
+*F
++ 0 doctord.jsp
+doctord.jsp
++ 1 Header.html
+Header.html
++ 2 Footer.html
+Footer.html
+*L
+5,74:50
+1#1,88:124
+78#0,40:212
+1#2,69:252
+117#0,7:320
+*E

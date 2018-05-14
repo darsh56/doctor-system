@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>HEART DOCTOR</title>
+        <meta name="keywords" content="#" />
+        <meta name="description" content="#" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="stylesheet/styles.css" />
+
+        <script language="javascript" type="text/javascript" src="script/newyorklasik-1.2.1-core.js"></script>
+        <script language="javascript" type="text/javascript" src="script/newyorklasik-1.2-more.js"></script>
+        <script language="javascript" type="text/javascript" src="script/newyorklasik-1.1.js"></script>
+        <script language="javascript" type="text/javascript">
+            window.addEvents({
+                'domready': function () {
+                    /* thumbnails example , div containers */
+                    new newyorklasik({
+                        overallContainer: 'newyorklasik_outer',
+                        elementScrolled: 'newyorklasik_inner',
+                        thumbsContainer: 'newyorklasik_items',
+                        itemsVisible: 5,
+                        elemsSlide: 2,
+                        duration: 150,
+                        itemsSelector: '.newyorklasik_element',
+                        itemWidth: 158,
+                        showControls: 1});
+                },
+            });
+        </script>
+
+
+        <script language="javascript" type="text/javascript">
+            function clearText(field)
+            {
+                if (field.defaultValue == field.value)
+                    field.value = '';
+                else if (field.value == '')
+                    field.value = field.defaultValue;
+            }
+        </script>
+    </head>
+    <body>
+
+        <div id="site_title_bar_wrapper_outter">
+            <div id="site_title_bar_wrapper_inner">
+
+                <div id="site_title_bar">
+
+                    <div id="banner_left">
+                        <div id="site_title">
+                            <h1><a href="#
+                                   ">
+                                    Heart <span>POINT</span>
+                                    <span class="tagline">A complete heart care</span>
+                                </a></h1>
+                        </div>
+
+                        <div id="menu">
+                            <ul>
+                                <li><a href="home.jsp" class="current"><span></span>Home</a></li>
+                                <li><a href="admin.jsp" target="_parent"><span></span>Admin</a></li>
+                                <li><a href="doctor.jsp" target="_parent"><span></span>Doctor</a></li>
+                              
+                                <li><a href="#"><span></span>Contact Us</a></li>
+                            </ul>    	
+                        </div> <!-- end of menu -->
+                    </div>
+
+                    <div id="banner_right">
+                        <div id="banner_box">
+
+                            <h1>Welcome to Heart Point </h1>
+                            <p>To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear..<br />
+                                &nbsp;</p>
+                            <div class="button"><a href="#
+                                                   ">Hello</a></div>
+
+                        </div>
+                    </div>
+
+                </div> <!-- end of site_title_bar  -->
+
+            </div> <!-- end of site_title_bar_wrapper_inner -->
+        </div> <!-- end of site_title_bar_wrapper_outter  -->
+
+    </body>
+</html>
